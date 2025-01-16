@@ -2,6 +2,19 @@
     margin: 0;
     padding: 0;
 }
-.background{
+body{
     background-image: url(https://wallpaperaccess.com/full/48471.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+}
+.background{
+    position: relative;   
+}
+.background .slider{
+    width: 60vw;
+    height: 50vh;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.7);
+    margin: auto auto;
 }
