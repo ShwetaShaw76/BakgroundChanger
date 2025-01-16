@@ -10,11 +10,11 @@ body{
     display: flex;
 }
 .background{
-    position: relative;   
+    position: relative;
 }
 .background .slider{
     width: 60vw;
-    height: 50vh;
-    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.7);
-    margin: auto auto;
+    height: 60vh;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
+    margin: 15rem auto;
 }
