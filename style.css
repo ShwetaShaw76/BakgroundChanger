@@ -25,44 +25,49 @@ body{
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
     overflow: hidden;
 }
+@media  screen and (max-width:645px) {
+    .container .slider{
+        width: 70vw;
+        height: 40vh;
+    }
+}
 .container .image-holder{
     display: grid;
     grid-template-columns: repeat(6,100%);
     height: 100%;
     width: 100%;
-    animation: motion 30s ease-in-out infinite alternate;
 }
-.container .img1{
+.container #img1{
     background-image: url(https://wallpapercave.com/wp/wp9139823.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.container .img2{
+.container #img2{
     background-image: url(https://as2.ftcdn.net/v2/jpg/05/84/95/65/1000_F_584956595_jJz4GqGQLZTIAiwir15VCk4sglgi9RGx.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.container .img3{
+.container #img3{
     background-image: url(https://cdn.wallpapersafari.com/34/26/dfl2A0.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.container .img4{
+.container #img4{
     background-image: url(https://wallup.net/wp-content/uploads/2018/10/08/955073-fish-fishes-underwater-ocean-sea-sealife-nature.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.container .img5{
+.container #img5{
     background-image: url(https://wallpapers.com/images/hd/savannah-background-7mpkl528yph58rx5.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.container .img6{
+.container #img6{
     background-image: url(https://wallpaperaccess.com/full/29872.jpg);
     background-position: center;
     background-size: cover;
@@ -81,17 +86,4 @@ body{
 }
 .btn:hover{
     box-shadow: 0px 0px 12px 8px rgba(0,5,255,0.8);
-}
-@keyframes motion{
-    0%{transform: translateX(0%);}
-    10%{transform: translateX(-100%);}
-    20%{transform: translateX(-100%);}
-    30%{transform: translateX(-200%);}
-    40%{transform: translateX(-200%);}
-    50%{transform: translateX(-300%);}
-    60%{transform: translateX(-300%);}
-    70%{transform: translateX(-400%);}
-    80%{transform: translateX(-400%);}
-    90%{transform: translateX(-500%);}
-    100%{transform: translateX(-500%);}
 }
