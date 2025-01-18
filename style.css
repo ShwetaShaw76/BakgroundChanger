@@ -25,10 +25,10 @@ body{
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.7);
     overflow: hidden;
 }
-@media  screen and (max-width:645px) {
+@media screen and (max-width:645px) {
     .container .slider{
         width: 70vw;
-        height: 40vh;
+        height: 50vh;
     }
 }
 .container .image-holder{
